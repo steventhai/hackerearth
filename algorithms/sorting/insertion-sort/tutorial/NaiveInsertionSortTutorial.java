@@ -1,6 +1,9 @@
 import java.util.*;
 
-class InsertionSortTutorial {
+/**
+ * Find the position that array[i] should be present in, if the array was a sorted array using linear search.
+ */
+public class NaiveInsertionSortTutorial {
     
     public static void main(String args[] ) throws Exception {
         
