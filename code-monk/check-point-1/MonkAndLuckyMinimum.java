@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class MonkAndLuckyMinimum {
     public static void main(String[] args) throws Throwable {
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("input"));
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("MonkAndLuckyMinimum.txt"));
         String line = bufferedReader.readLine();
         int t = Integer.parseInt(line);
 
