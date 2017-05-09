@@ -3,6 +3,32 @@ import java.io.FileInputStream;
 import java.io.FileReader;
 import java.util.Arrays;
 
+/**
+ * Monk just purchased an array A having N integers. Monk is very superstitious. 
+ * He calls the array A Lucky if the frequency of the minimum element is odd, otherwise he considers it Unlucky. Help Monk in finding out if the array is Lucky or not.
+ * 
+ * Input:
+ * First line consists of a single integer denoting the number of test cases.
+ * First line of each test case consists of a single integer.
+ * denoting the size of array A.
+ * Second line of each test case consists of N space separated integers denoting the array A.
+ * 
+ * Output: For each test case, print "Lucky" (without quotes) if frequency of minimum element is odd, otherwise print "Unlucky"(without quotes). Print a new line after each test case.
+ * Constraints: 1 ≤ T ≤ 10
+ * 1 ≤ N ≤ 10^5
+ * 1 ≤ A[i] ≤ 10^9
+ * 
+ * Sample input:
+ * 2
+ * 5
+ * 8 8 9 5 9
+ * 5
+ * 3 3 3 5 3
+ * 
+ * Sample output:
+ * Lucky
+ * Unlucky
+ */
 public class MonkAndLuckyMinimum {
     public static void main(String[] args) throws Throwable {
         BufferedReader bufferedReader = new BufferedReader(new FileReader("MonkAndLuckyMinimum.txt"));

@@ -3,6 +3,10 @@ import java.io.FileInputStream;
 import java.io.FileReader;
 import java.util.Arrays;
 
+/**
+ * Problem description:
+ * https://www.hackerearth.com/practice/data-structures/arrays/multi-dimensional/practice-problems/algorithm/monk-and-operations/
+ */
 public class MonkAndOperations {
     public static void main(String[] args) throws Throwable {
 
